@@ -29,7 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Satisfy", sans-serif;
+  
+  font-family: "Arial", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -175,6 +176,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  font: Arial;
 }
 
 .navbar ul {
@@ -182,11 +184,13 @@ h6 {
   padding: 0;
   display: flex;
   list-style: none;
+  font: Arial;
   align-items: center;
 }
 
 .navbar li {
   position: relative;
+  font: Arial;
 }
 
 .navbar a,
@@ -197,6 +201,7 @@ h6 {
   padding: 10px 0 10px 24px;
   font-size: 15px;
   font-weight: 500;
+  font: Arial;
   color: white;
   white-space: nowrap;
   transition: 0.3s;
@@ -1632,10 +1637,4 @@ section {
 
 #footer .credits {
   font-size: 13px;
-}
-
-
-
-.ul{
-  color: white;
 }
