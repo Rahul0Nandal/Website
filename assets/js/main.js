@@ -174,26 +174,26 @@
   });
 
   /**
-   * Menu isotope and filter
+   * camps isotope and filter
    */
   window.addEventListener('load', () => {
-    let menuContainer = select('.menu-container');
-    if (menuContainer) {
-      let menuIsotope = new Isotope(menuContainer, {
-        itemSelector: '.menu-item',
+    let campsContainer = select('.camps-container');
+    if (campsContainer) {
+      let campsIsotope = new Isotope(campsContainer, {
+        itemSelector: '.camps-item',
         layoutMode: 'fitRows'
       });
 
-      let menuFilters = select('#menu-flters li', true);
+      let campsFilters = select('#camps-flters li', true);
 
-      on('click', '#menu-flters li', function(e) {
+      on('click', '#camps-flters li', function(e) {
         e.preventDefault();
-        menuFilters.forEach(function(el) {
+        campsFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        menuIsotope.arrange({
+        campsIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
 
