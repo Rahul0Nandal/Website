@@ -29,8 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  
-  font-family: "Arial", sans-serif;
+  font-family: "Satisfy", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -176,7 +175,6 @@ h6 {
 */
 .navbar {
   padding: 0;
-  font: Arial;
 }
 
 .navbar ul {
@@ -184,13 +182,11 @@ h6 {
   padding: 0;
   display: flex;
   list-style: none;
-  font: Arial;
   align-items: center;
 }
 
 .navbar li {
   position: relative;
-  font: Arial;
 }
 
 .navbar a,
@@ -201,7 +197,6 @@ h6 {
   padding: 10px 0 10px 24px;
   font-size: 15px;
   font-weight: 500;
-  font: Arial;
   color: white;
   white-space: nowrap;
   transition: 0.3s;
@@ -510,7 +505,7 @@ h6 {
   cursor: pointer;
 }
 
-#hero .btn-menu,
+#hero .btn-about,
 #hero .btn-book {
   font-weight: 600;
   font-size: 13px;
@@ -528,7 +523,7 @@ h6 {
   border: 2px solid #ffb03b;
 }
 
-#hero .btn-menu:hover,
+#hero .btn-about:hover,
 #hero .btn-book:hover {
   background: #ffb03b;
   color: #fff;
@@ -654,6 +649,8 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about {
   background: #fffaf3;
 }
@@ -661,6 +658,8 @@ section {
 .about .content {
   padding: 0 80px;
 }
+
+
 
 .about .content h3 {
   font-weight: 400;
@@ -1637,4 +1636,10 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+
+.ul{
+  color: white;
 }
