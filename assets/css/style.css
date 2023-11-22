@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Avant Garde", sans-serif;
   color: #444444;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Satisfy", sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -924,7 +924,7 @@ section {
   top: -4px;
   z-index: 1;
   color: #dad8d4;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 .camps .camps-content a {
@@ -947,7 +947,7 @@ section {
 .camps .camps-ingredients {
   font-style: italic;
   font-size: 14px;
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Avant Garde", sans-serif;
   color: #948c81;
 }
 
@@ -1064,7 +1064,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avant Garde", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1277,7 +1277,7 @@ section {
   color: #6c665c;
   position: relative;
   padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 .location .member h4::after {
@@ -1374,14 +1374,14 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #ddd;
   margin: 0 0 15px 0;
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 .testimonials .testimonial-item .stars {
@@ -1468,7 +1468,7 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #433f39;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avant Garde", sans-serif;
 }
 
 .contact .info p {
