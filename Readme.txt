@@ -1,1 +1,1 @@
-Thanks for checking this out
+Thanks for checking this out.
